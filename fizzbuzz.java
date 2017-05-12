@@ -37,12 +37,10 @@ public class FizzBuzz {
 	static Boolean chkFizz(int x){
 		//custom class to receive ingeter parameter from main method, convert the integer to a string, and then loop through each character and check for the number 7, returning true if found
 		String strFizz = Integer.toString(x);
-		char test = 7;
-		
-		// i need to set the character to be analyzed 
+				
 		for(int i=0; i < strFizz.length(); i++){
 			char a = strFizz.charAt(i);	
-			if(a== '7') return true;}
+			if(a == '7') return true;}
 		return false;
 		}
 
